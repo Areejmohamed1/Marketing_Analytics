@@ -2,7 +2,7 @@
 
 ## Project Overview
 A full-cycle marketing analytics solution built on customer journey, social engagement, and customer review data for an online retail business, covering conversion performance, content engagement, and customer sentiment across a full year.
-The system was designed to answer real marketing questions — not just display numbers — by combining data cleaning and transformation in **SQL**, sentiment enrichment in **Python (NLTK)**, and executive-ready dashboards in **Power BI**.
+The system was designed to answer real marketing questions by combining data cleaning and transformation in **SQL**, sentiment enrichment in **Python (NLTK)**, and executive-ready dashboards in **Power BI**.
 
 ---
 
