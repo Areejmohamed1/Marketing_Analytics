@@ -9,7 +9,7 @@ The system was designed to answer real marketing questions — not just display 
 ## Dashboard Preview
 
 ### Page 1 — Overview
-![Overview](Dashboard/dashboard_overview.PNG)
+![Overview](Dashboard/OverView.PNG)
 
 ### Page 2 — Conversion Details
 ![Conversion Details](dashboard_conversion.PNG)
