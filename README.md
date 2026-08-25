@@ -69,7 +69,6 @@ Raw Marketing Data (customer journey, engagement logs, reviews)
 | Data extraction & cleaning | SQL (SQL Server / SSMS) | Clean, join, and reshape raw tables into a star schema |
 | Sentiment enrichment | Python (pandas, NLTK) | Score customer review text into sentiment categories |
 | Modeling & visualization | Power BI (Power Query + DAX) | Build the data model, write measures, design the 4-page report |
-| Storytelling | PowerPoint | Translate the dashboard into a goals-and-actions insights deck |
 
 ---
 
