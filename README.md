@@ -22,7 +22,7 @@ The system was designed to answer real marketing questions — not just display 
 
 ---
 
-## Key Business Questions Answered
+## Key Business Questions Answered(For 2024 Year)
 
 | Question | Answer |
 |---|---|
