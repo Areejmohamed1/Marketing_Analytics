@@ -1,4 +1,4 @@
-# 📊 Marketing Analytics | End-to-End Data Pipeline
+# Marketing Analytics Business Case
 
 ## Project Overview
 A full-cycle marketing analytics solution built on customer journey, social engagement, and customer review data for an online retail business, covering conversion performance, content engagement, and customer sentiment across a full year.
@@ -12,13 +12,13 @@ The system was designed to answer real marketing questions — not just display 
 ![Overview](Dashboard/OverView.PNG)
 
 ### Page 2 — Conversion Details
-![Conversion Details](dashboard_conversion.PNG)
+![Conversion Details](Dashboard/ConversionDetails.PNG)
 
 ### Page 3 — Social Media Details
-![Social Media Details](dashboard_social.PNG)
+![Social Media Details](Dashboard/SocialMediaDetails.PNG)
 
 ### Page 4 — Customer Reviews Details
-![Customer Reviews Details](dashboard_reviews.PNG)
+![Customer Reviews Details](Dashboard/CustomerReviewsDetails.PNG)
 
 ---
 
@@ -34,47 +34,6 @@ The system was designed to answer real marketing questions — not just display 
 | Click-through effectiveness? | **15.37%** click-through rate despite low click/like volume vs. views |
 | Average customer rating? | **3.7** — stable, but below the 4.0 target |
 | Sentiment split? | **275 positive** reviews vs. **82 negative**, with a smaller mixed/neutral segment |
-
----
-
-## Dashboard Features
-
-### Page 1 — Overview
-**KPIs:** Conversion Rate · Average Rating · Views · Clicks · Likes
-**Visuals:**
-- Conversion Rate by Month (line chart)
-- Clicks, Likes & Views by Month (line chart)
-- Conversion Funnel
-- Average Rating by Month (line chart)
-- Average Rating by Product (clustered column)
-- Filters: Year, Product, Month (slicers)
-
-### Page 2 — Conversion Details
-**KPIs:** Conversion Rate
-**Visuals:**
-- Conversion Rate by Month (line chart)
-- Conversion by Product (clustered bar)
-- Conversion Funnel
-- Detailed Conversion Pivot Table
-- Filters: Year, Product, Month (slicers)
-
-### Page 3 — Social Media Details
-**KPIs:** Views · Clicks · Likes
-**Visuals:**
-- Clicks, Likes & Views by Month (line chart)
-- Views by Month and Content Type (clustered column)
-- Detailed Engagement Pivot Table
-- Filters: Year, Content Type, Month (slicers)
-
-### Page 4 — Customer Reviews Details
-**KPIs:** Number of Customer Reviews
-**Visuals:**
-- Number of Reviews by Rating (clustered column)
-- Number of Reviews by Sentiment Category (clustered column)
-- Number of Reviews by Month and Sentiment (line chart)
-- Average Rating vs. Number of Reviews (scatter chart)
-- Detailed Reviews Table
-- Filters: Year, Product, Month (slicers)
 
 ---
 
@@ -137,42 +96,9 @@ Each insight was paired with a concrete action for the marketing team:
 
 ---
 
-## Repository Structure
 
-```
-├── sql/                   # Data cleaning & transformation queries
-├── python/                # Sentiment analysis notebook/script (pandas + NLTK)
-├── powerbi/
-│   └── MarketingAnalytics.pbix
-├── images/
-│   ├── dashboard_overview.PNG
-│   ├── dashboard_conversion.PNG
-│   ├── dashboard_social.PNG
-│   └── dashboard_reviews.PNG
-├── presentation/
-│   └── Marketing_Analytics_Insights.pptx
-└── README.md
-```
-*(Adjust the folder/file names above to match what's actually in your repo.)*
-
----
-
-## How to Explore This Project
-
-1. Clone the repo.
-2. Run the SQL scripts in `sql/` to reproduce the cleaned, joined star-schema tables.
-3. Run the Python sentiment analysis script/notebook in `python/` to generate the sentiment-enriched review table.
-4. Open `MarketingAnalytics.pbix` in Power BI Desktop and refresh the data source.
-5. Explore all four report pages, or view the screenshots in `images/` for a quick preview, or flip through `presentation/` for the executive summary.
-
----
 
 ## Skills Demonstrated
 
 `SQL data cleaning & transformation` · `Star schema data modeling` · `Python (pandas, NLTK) sentiment analysis` · `DAX measures` · `Power BI report design & UX` · `Stakeholder storytelling & business recommendations`
 
----
-
-## About Me
-
-*Add a short bio, and links to your LinkedIn, portfolio site, and email here — this is the part that turns a good project into a job lead.*
